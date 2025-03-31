@@ -45,21 +45,21 @@ export default function Home() {
       description: "A fun interactive app built with React and Next.js.",
       image: "/assets/img/images.jpg",
       projectLink: "https://lucky-five-eta.vercel.app/",
-      githubLink: "https://github.com/IshaBhoyar-2025",
+      githubLink: "https://github.com/IshaBhoyar-2025/Lucky",
     },
     {
       title: "Calculator App",
       description: "A fully functional calculator that displays full equations.",
       image: "/assets/img/calc-app.jpg",
       projectLink: "https://calculator-omega-beryl.vercel.app/",
-      githubLink: "https://github.com/IshaBhoyar-2025",
+      githubLink: "https://github.com/IshaBhoyar-2025/calculator",
     },
     {
       title: "Clock App",
       description: "A clock application with stopwatch and countdown timer.",
       image: "/assets/img/clock.jpg",
       projectLink: "https://clock-virid-xi.vercel.app/",
-      githubLink: "https://github.com/IshaBhoyar-2025",
+      githubLink: "https://github.com/IshaBhoyar-2025/clock",
     },
   ];
 
@@ -395,12 +395,12 @@ export default function Home() {
                 <div className="p-4">
                   <h4 className="text-xl font-semibold">{project.title}</h4>
                   <p className="text-gray-600 text-sm">{project.description}</p>
-                  <div className="flex flex-col mt-2 space-y-2">
+                  <div className="flex space-x-4 mt-2">
                     <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="project-link text-blue-500 hover:underline">
                       View Project
                     </a>
                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link text-blue-500 hover:underline">
-                      GitHub Profile
+                      GitHub 
                     </a>
                   </div>
                 </div>
@@ -409,7 +409,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      
       <section id="services" className="services section py-12">
         <div className="container mx-auto px-4 py-0">
           <div className="container section-title" data-aos="fade-up">

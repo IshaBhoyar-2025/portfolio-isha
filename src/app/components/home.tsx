@@ -5,8 +5,8 @@ import Typed from "typed.js";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Link from "next/link";
-import { MapPin, Phone, Mail, Linkedin, Github, Code, Monitor, Database, Smartphone, Paintbrush, TabletSmartphone, Target } from "lucide-react";
+import { MapPin, Phone, Mail, Code, Monitor, Database, Smartphone, Paintbrush, TabletSmartphone } from "lucide-react";
+
 
 
 
@@ -118,7 +118,7 @@ export default function Home() {
         <div className="container">
           <h2>Isha Bhoyar</h2>
           <p>
-            I'm <span className="typed"></span>
+          I&apos;m <span className="typed"></span>
           </p>
         </div>
       </section>

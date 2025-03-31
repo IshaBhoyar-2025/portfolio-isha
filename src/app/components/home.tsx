@@ -44,22 +44,25 @@ export default function Home() {
       title: "Coin & Dice",
       description: "A fun interactive app built with React and Next.js.",
       image: "/assets/img/images.jpg",
-      link: "https://lucky-five-eta.vercel.app/",
+      projectLink: "https://lucky-five-eta.vercel.app/",
+      githubLink: "https://github.com/IshaBhoyar-2025",
     },
     {
       title: "Calculator App",
       description: "A fully functional calculator that displays full equations.",
       image: "/assets/img/calc-app.jpg",
-      link: "https://calculator-omega-beryl.vercel.app/",
+      projectLink: "https://calculator-omega-beryl.vercel.app/",
+      githubLink: "https://github.com/IshaBhoyar-2025",
     },
     {
       title: "Clock App",
       description: "A clock application with stopwatch and countdown timer.",
       image: "/assets/img/clock.jpg",
-      link: "https://clock-virid-xi.vercel.app/",
+      projectLink: "https://clock-virid-xi.vercel.app/",
+      githubLink: "https://github.com/IshaBhoyar-2025",
     },
-
   ];
+
 
   const services = [
     { icon: <Code />, title: "Web Development", description: "Building responsive and high-performance websites using modern frameworks like React, Next.js, and Tailwind CSS." },
@@ -118,7 +121,7 @@ export default function Home() {
         <div className="container">
           <h2>Isha Bhoyar</h2>
           <p>
-          I&apos;m <span className="typed"></span>
+            I&apos;m <span className="typed"></span>
           </p>
         </div>
       </section>
@@ -377,13 +380,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section id="portfolio" className="portfolio py-0 bg-gray-100">
         <div className="container mx-auto px-4 py-0">
           <div className="container section-title" data-aos="fade-up">
             <h2>Projects</h2>
-            <p>
-              Here Are Some of My Latest Project
-            </p>
+            <p>Here Are Some of My Latest Projects</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up" data-aos-delay="200">
@@ -393,9 +395,14 @@ export default function Home() {
                 <div className="p-4">
                   <h4 className="text-xl font-semibold">{project.title}</h4>
                   <p className="text-gray-600 text-sm">{project.description}</p>
-                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                    View Project
-                  </a>
+                  <div className="flex flex-col mt-2 space-y-2">
+                    <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="project-link text-blue-500 hover:underline">
+                      View Project
+                    </a>
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link text-blue-500 hover:underline">
+                      GitHub Profile
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}

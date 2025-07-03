@@ -61,6 +61,14 @@ export default function Home() {
       projectLink: "https://clock-virid-xi.vercel.app/",
       githubLink: "https://github.com/IshaBhoyar-2025/clock",
     },
+
+    {
+      title: "Shoporia- Ecommerce Website",
+      description: "An advanced ecommerce website with user authentication and product management.",
+      image: "/assets/img/ecommerce.jpg",
+      projectLink: "https://ecommerce-v3b4.vercel.app/",
+      githubLink: "https://github.com/IshaBhoyar-2025/clock",
+    },
   ];
 
 
@@ -376,6 +384,11 @@ export default function Home() {
             <div className="resume-item">
               <h4>Clock, Stopwatch, and Countdown Timer</h4>
               <p>Developed a time management application with advanced functionalities.</p>
+            </div>
+
+             <div className="resume-item">
+              <h4>Shoporia- Ecommerce Website</h4>
+              <p>Developed a ecommerce website with advanced functionalities.</p>
             </div>
           </div>
         </div>

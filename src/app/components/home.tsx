@@ -67,7 +67,7 @@ export default function Home() {
       description: "An advanced ecommerce website with user authentication and product management.",
       image: "/assets/img/ecommerce.jpg",
       projectLink: "https://ecommerce-v3b4.vercel.app/",
-      githubLink: "https://github.com/IshaBhoyar-2025/clock",
+      githubLink: "https://github.com/IshaBhoyar-2025/ecommerce",
     },
   ];
 
